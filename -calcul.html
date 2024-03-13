@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcul</title>
+    <link rel="stylesheet" href="-calcul.css">
+</head>
+<body>
+    <div id="calcul">
+        <input id="display" readonly>
+        <div id="key">
+            <button onclick="SuppTous()">AC</button>
+            <button onclick="SuppUn('DE')">DE</button>
+            <button onclick="affich('%')" class="operateur">%</button>
+            <button onclick="affich('/')" class="operateur">/</button>
+            <button onclick="affich('7')">7</button>
+            <button onclick="affich('8')">8</button>
+            <button onclick="affich('9')">9</button>
+            <button onclick="affich('*')" class="operateur">*</button>
+            <button onclick="affich('4')">4</button>
+            <button onclick="affich('5')">5</button>
+            <button onclick="affich('6')">6</button>
+            <button onclick="affich('+')" class="operateur">+</button>
+            <button onclick="affich('1')">1</button>
+            <button onclick="affich('2')">2</button>
+            <button onclick="affich('3')" >3</button>
+            <button onclick="affich('-')" class="operateur">-</button>
+            <button onclick="affich('00')">00</button>
+            <button onclick="affich('0')">0</button>
+            <button onclick="affich('.')">.</button>
+            <button onclick="calculer()">=</button>
+        </div>
+    </div>
+    <script src="-calcul.js"></script>
+</body>
+
+</html>
