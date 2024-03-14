@@ -5,6 +5,11 @@ function affich(input){
  
 }
 
+function SuppUn(){
+    let valeurAffichee = display.value;
+    display.value = valeurAffichee.slice(0, -1);
+}
+
 function SuppTous(){
     display.value = "";
 
