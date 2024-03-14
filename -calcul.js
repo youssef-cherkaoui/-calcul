@@ -1,4 +1,5 @@
-const display = document.getElementById("display");
+var display = document.getElementById("display");
+var outpout = document.getElementById("outpout");
 
 function affich(input){
     display.value += input;
@@ -12,11 +13,11 @@ function SuppUn(){
 
 function SuppTous(){
     display.value = "";
-
+    outpout.value = "";
 }
 
 function calculer(){
-    display.value = eval(display.value);
+    outpout.value = eval(display.value);
 
     /*try{
         display.value = eval(display.value);

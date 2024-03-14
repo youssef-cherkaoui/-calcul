@@ -1,36 +1,38 @@
 body{
-    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: hsl(0, 0%, 95%);
+    background-color: hsl(0, 97%, 85%);
     
 }
 
 #calcul{
     font-family: Arial, sans-serif;
-    background-color: hsl(0, 0%, 15%);
+    background-color: hsl(0, 74%, 79%);
     border-radius: 15px;
-    overflow: hidden;
+    margin: 40%;
+   
 }
 
 #display{
     width: 167px;
+    margin: 4px;
     padding: 8px;
     font-size: 15px;
     text-align: left;
     border: none;
-    background-color: hsl(0, 0%, 20%);
-    color: white;
+    background-color: hsl(322, 92%, 47%);
+    color: rgb(227, 80, 80);
+    border-radius:10px;
 }
 
 #key{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2px;
-    max-width: 30%;
-    padding: 4px;
+    max-width: 50%; 
+    margin: 5px;  
     
 }
 
@@ -39,11 +41,12 @@ button{
     height: 40px;
     border-radius: 50px;
     border: none;
-    background-color: hsl(0, 0%, 30%);
+    background-color: hsl(327, 32%, 50%);
     color: white;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    margin:2px;
 }
 
 button:hover{
@@ -51,5 +54,22 @@ button:hover{
 }
 
 .operateur{
-    background-color: antiquewhite;
+    background-color: rgb(237, 91, 143);
 }
+
+#outpout{
+    position: relative;
+    margin-right: 10%;
+    left: 4px;
+    top: 2px;
+    width: 167px;
+    padding: 8px;
+    font-size: 15px;
+    text-align: left;
+    border: none;
+    background-color: hsl(327, 36%, 59%);
+    color: white;
+    border-radius:10px;
+   
+}
+
